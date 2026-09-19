@@ -10,4 +10,8 @@ Return/fraud risk scoring.
 
 Data → Features → ML Risk Model → Risk Score → Explainability → Business Action
 
-This repository currently contains only the project scaffold; no model or scoring logic has been implemented.
+## Current dataset
+
+Stage 2 provides a reproducible, synthetic e-commerce transaction dataset for development. See [data/DATASET.md](data/DATASET.md) for its schema, limitations, and generation command.
+
+No model or scoring logic has been implemented.

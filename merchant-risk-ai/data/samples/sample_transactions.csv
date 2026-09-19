@@ -1,1 +1,11 @@
-transaction_id,customer_id,order_amount,currency
+transaction_id,order_id,customer_id,order_timestamp,order_amount,currency,payment_method,billing_country,shipping_country,billing_shipping_match,account_age_days,orders_last_30d,failed_payment_attempts_24h,device_id,ip_country,is_proxy_or_vpn,email_domain_type,shipping_speed,items_count,is_high_risk
+txn_0000001,ord_0000001,cus_000002,2025-12-24T11:10:00+00:00,7408.83,INR,bank_transfer,IN,IN,1,491,0,0,dev_000001,GB,0,consumer,express,8,0
+txn_0000002,ord_0000002,cus_000003,2025-02-25T13:47:00+00:00,1038.03,INR,wallet,US,US,1,183,17,0,dev_000003,AE,0,consumer,express,5,1
+txn_0000003,ord_0000003,cus_000003,2025-12-29T23:08:00+00:00,1385.62,INR,card,DE,DE,1,871,16,1,dev_000005,AE,0,consumer,express,8,0
+txn_0000004,ord_0000004,cus_000001,2025-03-16T16:39:00+00:00,908.4,INR,bank_transfer,AU,AU,1,962,4,0,dev_000002,AU,0,consumer,standard,8,0
+txn_0000005,ord_0000005,cus_000003,2025-12-15T17:15:00+00:00,1827.15,INR,bank_transfer,SG,SG,1,886,6,0,dev_000003,IN,1,consumer,standard,8,0
+txn_0000006,ord_0000006,cus_000002,2025-12-29T00:27:00+00:00,327.71,INR,bank_transfer,AE,AE,1,1142,1,1,dev_000003,AE,0,consumer,standard,5,0
+txn_0000007,ord_0000007,cus_000002,2025-03-12T09:18:00+00:00,15850.04,INR,upi,US,AU,0,1530,13,0,dev_000001,IN,1,consumer,express,2,0
+txn_0000008,ord_0000008,cus_000002,2025-09-18T03:24:00+00:00,3144.26,INR,upi,US,US,1,10,10,0,dev_000005,AU,0,business,standard,3,0
+txn_0000009,ord_0000009,cus_000003,2025-04-27T14:19:00+00:00,1492.13,INR,upi,AE,AE,1,1604,18,0,dev_000004,AE,0,consumer,standard,1,0
+txn_0000010,ord_0000010,cus_000001,2025-01-19T15:04:00+00:00,6354.97,INR,bank_transfer,AE,IN,0,671,9,0,dev_000001,AE,0,consumer,express,3,0

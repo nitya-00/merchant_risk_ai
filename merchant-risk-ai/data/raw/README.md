@@ -1,3 +1,3 @@
 # Raw data
 
-Place source datasets here. Raw data is intentionally excluded from version control.
+Place source datasets and full generated datasets here. This directory is intentionally excluded from version control. Use `data/samples/` for small, safe-to-commit examples.
