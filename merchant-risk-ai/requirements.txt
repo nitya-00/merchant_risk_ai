@@ -1,0 +1,6 @@
+# Planned Python dependencies for future ML and API stages.
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn

@@ -1,0 +1,3 @@
+# Minimal backend dependencies.
+fastapi
+uvicorn

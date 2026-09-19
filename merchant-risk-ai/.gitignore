@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.DS_Store
+.ipynb_checkpoints/
+
+# Generated model and evaluation artifacts
+models/*.pkl
+models/*.joblib
+evaluation/results/*
+!evaluation/results/.gitkeep
+evaluation/plots/*
+!evaluation/plots/.gitkeep
+
+# Local and generated datasets
+data/raw/*
+!data/raw/README.md
+data/processed/*
+!data/processed/.gitkeep
