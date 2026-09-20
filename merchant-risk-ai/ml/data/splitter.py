@@ -1,1 +1,1 @@
-"""Placeholder for train, validation, and held-out test splitting."""
+"""Reserved for leakage-aware train, validation, and test splitting in Stage 4."""
